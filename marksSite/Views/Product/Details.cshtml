@@ -1,0 +1,52 @@
+﻿@model marksSite.Model.Product
+@addTagHelper *, Microsoft.AspNetCore.MVC.TagHelpers
+
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/CSS/StyleSheet.css">
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+   
+    <nav>
+        <a href="#aboutUs">About Us</a>
+        <a href="#ourProducts">Our Products</a>
+        <a href="#getInTouch">Get In Touch</a>
+    </nav>
+    <header>
+        <h1>@Model.Name </h1>
+        <section id="offWhite">
+            <span><strong>@Model.Name</strong></span>
+        </section>
+    </header>
+    <main>
+        <section id="airMax">
+            <img src="~/images/@Model.Image" alt="Alternate Text" />
+            <p></p>
+            <h3>@Model.Category.Name</h3>
+            <h4>@Model.Description</h4>
+            <h2>Review List</h2>
+            <hr />
+            @foreach (var review in Model.Reviews)
+            {
+                @review.Content
+
+                <a href="/review/edit/@review.ReviewId">edit review</a>
+                <a href="/Review/Delete/@review.ReviewId">Delete this Review</a>
+                <hr />
+            }
+        </section>
+        <a href="~/Review/Create/@Model.Id">Add a Review</a>
+        <a href="~/Category/Details/@Model.Category.Id">Return to Products</a>
+    </main>
+</body>
+</html>

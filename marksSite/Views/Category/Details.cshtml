@@ -1,0 +1,31 @@
+﻿@model marksSite.Model.Category
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/CSS/StyleSheet.css">
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <header>
+        <h1>@Model.Name </h1>
+        <section id="offWhite"></section>
+    </header>
+    <main>
+        <h1>Products</h1>
+        @foreach (var product in Model.Products)
+        {
+            <a href="~/Product/Details/@product.Id">@product.Name</a>
+            <hr />
+        }
+        <a href="~/Category/Index/">Return To Categories</a>
+    </main>
+</body>
+</html>

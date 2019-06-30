@@ -1,0 +1,38 @@
+﻿@model IEnumerable<marksSite.Model.Category>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/CSS/StyleSheet.css">
+    <meta name="viewport" content="width=device-width" />
+    <title>Watch Blog</title>
+</head>
+<body>
+    <img src="~/images/Brellum-Pandial-Marina-2-Chronometer-Watch-5.jpg" />
+    <nav>
+        <a href="#aboutUs">About Us</a>
+        <a href="#ourProducts">Our Products</a>
+        <a href="#getInTouch">Get In Touch</a>
+    </nav>
+    <h1>Watch Blog</h1>
+    <h2>Categories</h2>
+
+    @foreach (var category in Model)
+    {
+
+        <a href="~/Category/Details/@category.Id">@category.Name</a>
+        <hr />
+    }
+</body>
+
+
+</html>
+
+<footer>
+    &copy; Aaron and Mark Watch Blog 2019
+</footer>
