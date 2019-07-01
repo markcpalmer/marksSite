@@ -47,7 +47,13 @@ h2 {
     color: rgb(226, 101, 28);
 }
 
-    .a href a:hover {
-        text-shadow: 16px;
-        color: white;
-    }
+.a href a:hover {
+    text-shadow: 16px;
+    color: white;
+}
+
+.blog_entry {
+    border-bottom: 1px solid #cccccc;
+    text-align: left;
+    padding: 20px;
+}

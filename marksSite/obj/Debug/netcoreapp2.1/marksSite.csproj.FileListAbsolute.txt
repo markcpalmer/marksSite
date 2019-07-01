@@ -35,3 +35,40 @@ C:\Users\WeCanCodeIT\source\repos\marksSite\marksSite\obj\Debug\netcoreapp2.1\Ra
 C:\Users\WeCanCodeIT\source\repos\marksSite\marksSite\obj\Debug\netcoreapp2.1\Razor\Views\Review\Create.g.cshtml.cs
 C:\Users\WeCanCodeIT\source\repos\marksSite\marksSite\obj\Debug\netcoreapp2.1\Razor\Views\Review\Delete.g.cshtml.cs
 C:\Users\WeCanCodeIT\source\repos\marksSite\marksSite\obj\Debug\netcoreapp2.1\Razor\Views\Review\Edit.g.cshtml.cs
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\bin\Debug\netcoreapp2.1\marksSite.deps.json
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\bin\Debug\netcoreapp2.1\marksSite.runtimeconfig.json
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\bin\Debug\netcoreapp2.1\marksSite.runtimeconfig.dev.json
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\bin\Debug\netcoreapp2.1\marksSite.dll
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\bin\Debug\netcoreapp2.1\marksSite.pdb
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\bin\Debug\netcoreapp2.1\marksSite.Views.dll
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\bin\Debug\netcoreapp2.1\marksSite.Views.pdb
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\marksSite.csprojAssemblyReference.cache
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\marksSite.csproj.CoreCompileInputs.cache
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\marksSite.RazorAssemblyInfo.cache
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\marksSite.RazorAssemblyInfo.cs
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\marksSite.AssemblyInfoInputs.cache
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\marksSite.AssemblyInfo.cs
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\marksSite.TagHelpers.input.cache
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\marksSite.TagHelpers.output.cache
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\marksSite.RazorCoreGenerate.cache
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\Razor\Views\Category\Details.g.cshtml.cs
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\Razor\Views\Category\Index.g.cshtml.cs
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\marksSite.RazorTargetAssemblyInfo.cache
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\marksSite.RazorTargetAssemblyInfo.cs
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\marksSite.Views.pdb
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\marksSite.dll
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\marksSite.pdb
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\marksSite.csproj.CopyComplete
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\Razor\Views\BlogEntry\Create.g.cshtml.cs
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\Razor\Views\BlogEntry\Delete.g.cshtml.cs
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\Razor\Views\BlogEntry\Edit.g.cshtml.cs
+C:\Users\WeCanCodeIT\source\repos\marksSite - v1\marksSite\obj\Debug\netcoreapp2.1\Razor\Views\Blog\Details.g.cshtml.cs

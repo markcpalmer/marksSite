@@ -1,0 +1,54 @@
+﻿@model marksSite.Model.BlogEntry
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/CSS/StyleSheet.css">
+    <title>Watch Blogs</title>
+</head>
+<body>
+    <nav>
+        <a href="#aboutUs">About Us</a>
+        <a href="#ourProducts">Our Blogs</a>
+        <a href="#getInTouch">Get In Touch</a>
+    </nav>
+    <h2>Create Blog Entry</h2>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Create" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="EntryTitle" class="control-label"></label>
+                    <input asp-for="EntryTitle" class="form-control" />
+                    <span asp-validation-for="EntryTitle" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Content" class="control-label"></label>
+                    <textarea asp-for="Content" class="form-control"></textarea>
+                    <span asp-validation-for="Content" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input asp-for="BlogId" type="hidden" value="@ViewBag.BlogId" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-default" />
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a href="~/Blog/Details/@ViewBag.BlogId">Return to Blog Page</a>
+    </div>
+
+</body>
+</html>

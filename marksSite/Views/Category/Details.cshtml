@@ -19,10 +19,10 @@
         <section id="offWhite"></section>
     </header>
     <main>
-        <h1>Products</h1>
-        @foreach (var product in Model.Products)
+        <h1>Blogs</h1>
+        @foreach (var blog in Model.Blogs)
         {
-            <a href="~/Product/Details/@product.Id">@product.Name</a>
+            <a href="~/Blog/Details/@blog.Id">@blog.Name</a>
             <hr />
         }
         <a href="~/Category/Index/">Return To Categories</a>

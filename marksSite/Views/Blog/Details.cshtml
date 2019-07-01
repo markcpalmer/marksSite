@@ -1,0 +1,55 @@
+﻿@model marksSite.Model.Blog
+@addTagHelper *, Microsoft.AspNetCore.MVC.TagHelpers
+
+
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/CSS/StyleSheet.css">
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+   
+    <nav>
+        <a href="#aboutUs">About Us</a>
+        <a href="#ourProducts">Our Blogs</a>
+        <a href="#getInTouch">Get In Touch</a>
+    </nav>
+    <header>
+        <h1>@Model.Name </h1>
+        <section id="offWhite">
+            <span><strong>@Model.Name</strong></span>
+        </section>
+    </header>
+    <main>
+        <section id="airMax">
+            <img src="~/images/@Model.Image" alt="Alternate Text" />
+            <p></p>
+            <h3>@Model.Category.Name</h3>
+            <h4>@Model.Description</h4>
+            <h2>Blog Entries</h2>
+            <hr />
+            @foreach (var entry in Model.BlogEntrys)
+            {
+            <div class="blog_entry">
+                <h3>@entry.EntryTitle</h3>
+                <h4>@entry.PostTime</h4>
+                @entry.Content
+
+                <a href="/blogentry/edit/@entry.BlogEntryId">edit blog entry</a>
+                <a href="/BlogEntry/Delete/@entry.BlogEntryId">Delete this Blog Entry</a>
+            </div>
+            }
+        </section>
+        <a href="~/BlogEntry/Create/@Model.Id">Add a BlogEntry</a>
+        <a href="~/Category/Details/@Model.Category.Id">Return to Blogs</a>
+    </main>
+</body>
+</html>

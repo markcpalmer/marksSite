@@ -20,8 +20,8 @@ namespace marksSite
             services.AddMvc();
             services.AddDbContext<SiteContext>();
             services.AddScoped<IRepository<Category>, CategoryRepository>();
-            services.AddScoped<IRepository<Product>, ProductRepository>();
-            services.AddScoped<IRepository<Review>, ReviewRepository>();
+            services.AddScoped<IRepository<Blog>, BlogRepository>();
+            services.AddScoped<IRepository<BlogEntry>, BlogEntryRepository>();
         }
 
 

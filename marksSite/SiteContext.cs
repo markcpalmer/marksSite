@@ -10,12 +10,12 @@ namespace marksSite
     public class SiteContext : DbContext
     {
         public DbSet<Category> Categories { get; set; }
-        public DbSet<Product> Products { get; set; }
-        public DbSet<Review> Reviews { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
+        public DbSet<BlogEntry> BlogEntrys { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            var connectionString = "Server=(localdb)\\mssqllocaldb;Database=aajcreviewsiteDb;Trusted_Connection=True;";
+            var connectionString = "Server=(localdb)\\mssqllocaldb;Database=marksSite;Trusted_Connection=True;";
 
             optionsBuilder.UseSqlServer(connectionString)
                           .UseLazyLoadingProxies();
@@ -39,69 +39,69 @@ namespace marksSite
                 }
             );
 
-            modelBuilder.Entity<Product>().HasData(
-                new Product()
+            modelBuilder.Entity<Blog>().HasData(
+                new Blog()
                 {
                     Id = 1,
-                    Name = "Nike Air Max 90's OFF-WHITE edition",
-                    Description = "AirMax Based off the original Air Max 90, designer Virgil Abloh, decrostructed the design of the upper portion of the shoe. Seude & synthtic material's make the upper portion. While the OFF-WHITE branding can be seen on the medial sides of the shoe. Last but not least, is the famous tag located on the upper eyelet. This shoe is presented in the colorway of, Desert Ore/Hyper Jade/Bright Mango.",
+                    Name = "Rollex Date Just 41",
+                    Description = "Rolex Datejust 41 Sundust Dial Steel and 18K Everose Gold Mens Watch 126331SNSO",
                     Image = "image.jpg",
                     CategoryId = 1
                 },
 
-                new Product()
+                new Blog()
                 {
                     Id = 2,
-                    Name = "High Heels Jimmy Choo",
-                    Description = "Aveline in black. Exquisite, extravagant and the epitome of elegance, this special occasion style hosts oversized bold crinoline bows to offer a 'same but different' look on each pump. The bows are intricately woven, hand tied and sewn on for a dramatic finish ",
-                    Image = "Jimmy-white.jpeg",
+                    Name = "Rollex 2",
+                    Description = "This is a test description",
+                    Image = "watch.jpeg",
                     CategoryId = 1
                 },
 
-                new Product()
+                new Blog()
                 {
                     Id = 3,
-                    Name = "Cold Brew Coffee",
-                    Description = "Coffee was first brought to the country of Brazil, by a man named Francisco de Melo Palheta, in 1727. He planted the first coffee tree in the state of Para and it thrived and made a easy transition to Rio de Janeiro by 1770. There are two types of beans that are used for production in Brazil. The first bean is called the robusta bean, the second is called the arabica bean. The majority of the coffee grown in Brazil is located in the southern portion of the country. Arabica is known to be the better tasting bean of the two types, and is also the majority in annual production at 80%. Brazil as a country has a annual production rate of 7.9 billion pounds, as of 2018 records. America is the leading country of coffee consumption at 400 million cup's per day. At this rate, coffee is not going anywhere but up, in the United States anytime soon.",
-                    Image = "coffee.jpg",
+                    Name = "Some watches rock",
+                    Description = "Watches with lots of diamonds are still cool",
+                    Image = "watch.jpg",
                     CategoryId = 2
                 },
 
-                new Product()
+                new Blog()
                 {
                     Id = 4,
-                    Name = "Shock Energy Drink",
-                    Description = "It's known as one of the best tasting energy drinks on the market, with a unique flavor unlike any of its competitors. Contains 260 mg of caffeine per can, higher than the caffeine content in a Red Bull, Rockstar, or Monster. Also offered in a variety of a few flavors including citrus, grape, and loaded cherry",
-                    Image = "XtremeShock.png",
+                    Name = "Energy Watch",
+                    Description = "Solar watches are the new hot thing!",
+                    Image = "solarwatch.jpg",
                     CategoryId = 2
                 }
 
             );
 
-            modelBuilder.Entity<Review>().HasData(
-                new Review()
+            modelBuilder.Entity<BlogEntry>().HasData(
+                new BlogEntry()
                 {
-                    ReviewId = 1,
-                    Content = "The shoe is the last one of Virgil's Off-White collab for the Air Max 90's and is probably the best design he has to date. They are not true to size and seem to run a half size smaller. The upper's are wonderfully designed, the lower portion in my eye's is where they really shine at. As with all of his Off-White creations as of late, the added print is very reminiscent of Andy Warhol, and I dig it. As far as paying retail for these shoes, they are awesome, but I wouldn't recommend paying resale pricing unless you are okay with wearing shoes that near the thousand dollar mark.",
-                    ProductId = 1,
+                    BlogEntryId = 1,
+                    Content = "These watches make mankind stop time.",
+                    BlogId = 1,
                 },
-                new Review()
+                new BlogEntry()
                 {
-                    ReviewId = 2,
-                    Content = "The shoe is as beautiful as it looks on the site. It's does run small so, I would recommend a 1/2 size up. As long as you're used to wearing heels they are good for an all night wear. Perfect for a dramatic night on the town or an elegant night out. Would I recommend this shoe? Absolutely!",
-                    ProductId = 2,
+                    BlogEntryId = 2,
+                    Content = "I have never seen a watch so cool.  It makes me shiver just to look at it.",
+                    BlogId = 2,
                 },
-                new Review()
+                new BlogEntry()
                 {
-                    ReviewId = 3,
-                    Content = "Coffee? yes. Iced or Cold brew coffee? Even better. This stuff right here? The best there is, hands down, nothing else wakes me up faster than this.",
-                    ProductId = 3,
+                    BlogEntryId = 3,
+                    Content = "This is a great watch. Just like my grandfathers only better",
+                    BlogId = 3,
                 },
-                new Review()
+                new BlogEntry()
                 {
-                    ReviewId = 4,
-                    Content = "Feel it within 15 minutes of drinkning it, fantastic for body building and tastes GREAT!!!!",
-                    ProductId = 4,
+                    BlogEntryId = 4,
+                    Content = "This watch is so heavy it makes my arm hurt.  Don't buy it.",
+                    BlogId = 4,
                 }
             );
         }
