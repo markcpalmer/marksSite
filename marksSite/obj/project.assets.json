@@ -12880,11 +12880,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WeCanCodeIT\\source\\repos\\marksSite\\marksSite\\marksSite.csproj",
+      "projectUniqueName": "C:\\Users\\WeCanCodeIT\\source\\repos\\marksSite2\\marksSite\\marksSite.csproj",
       "projectName": "marksSite",
-      "projectPath": "C:\\Users\\WeCanCodeIT\\source\\repos\\marksSite\\marksSite\\marksSite.csproj",
+      "projectPath": "C:\\Users\\WeCanCodeIT\\source\\repos\\marksSite2\\marksSite\\marksSite.csproj",
       "packagesPath": "C:\\Users\\WeCanCodeIT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WeCanCodeIT\\source\\repos\\marksSite\\marksSite\\obj\\",
+      "outputPath": "C:\\Users\\WeCanCodeIT\\source\\repos\\marksSite2\\marksSite\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
