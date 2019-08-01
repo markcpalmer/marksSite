@@ -71,3 +71,4 @@ C:\Users\WeCanCodeIT\source\repos\marksSite2\marksSite\obj\Debug\netcoreapp2.1\m
 C:\Users\WeCanCodeIT\source\repos\marksSite2\marksSite\obj\Debug\netcoreapp2.1\marksSite.dll
 C:\Users\WeCanCodeIT\source\repos\marksSite2\marksSite\obj\Debug\netcoreapp2.1\marksSite.pdb
 C:\Users\WeCanCodeIT\source\repos\marksSite2\marksSite\obj\Debug\netcoreapp2.1\marksSite.csproj.CopyComplete
+C:\Users\WeCanCodeIT\source\repos\marksSite2\marksSite\obj\Debug\netcoreapp2.1\marksSite.csprojAssemblyReference.cache
